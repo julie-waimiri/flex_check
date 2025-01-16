@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
 
 
-* {
+* {https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -105,3 +105,69 @@ form button:hover {
     cursor: pointer;
 }
 
+.about-us {
+    padding: 50px 0;
+    background-color: #ddc6c6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex {
+    flex: 1;
+    min-width: 300px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(114, 35, 35);
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.social.links {
+    margin-top: 20px;
+}
+
+.social.links a {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social.links a:hover {
+    color: rgba(165,69,69)
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(165,69,69);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(224, 136, 136);
+    color: rgb(95, 10, 10)
+}
